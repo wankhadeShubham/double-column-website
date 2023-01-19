@@ -16,7 +16,7 @@ body{
 .wrapper{
     width: 1200px;
     margin: 0rem auto;
-    border: 1PX solid red;
+    /* border: 1PX solid red; */
     
 }
 
@@ -47,12 +47,10 @@ body{
 .main-nav>ul>li{
     padding: 1.5rem 3.5rem;
     display: inline-block;
+    padding-left: 3vw;
 
 }
-.main-nav>ul>li{
-    padding-left: 3vw;
-    
-}
+
 
 .main-nav>ul>li>a{
 
@@ -144,7 +142,7 @@ body{
     text-align: center;
     text-align: justify;
      padding: -1rem;
-     padding-bottom: vh;
+     /* padding-bottom: vh; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 16px;
     font-weight :551;
@@ -251,4 +249,199 @@ body{
         margin: 0rem auto;
         
     }
+
+    .container .content{
+        width: 100%;
+        
+    }
+    .container .content p{
+        padding: 1.5rem;
+    }
+
+    .container .right-sidebar{
+        position: static;
+        width: 100%;
+        min-height: 50.7vh;
+
+        
+    }
+    .container .right-sidebar h3{
+        margin-top: 5vh;
+        font-size : 3rem; 
+        border-top-right-radius: 0;
+    }
+
+    .container .right-sidebar p{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size : 1.6rem; 
+        padding: 1.5rem;
+        text-indent: 15vw;
+        
+    }
+    .footer{
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    .main-nav>ul>li{
+    
+        text-align: center;
+       
+        font-weight: bold;
+        padding: 2.3rem;
+    
+    }
+    .main-nav>ul>li:first{
+        padding-left: 2.5rem;
+
+    }
+
+    .main-nav>ul>li>a{
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
 }
+
+
+
+@media (max-width: 700px) and (orientation: landscape) {
+
+  
+    #about{
+         width: 21.5%;
+         float: right;
+         min-height: 170.7vh;
+        position: absolute;
+        right: -12.5vw;top: 44.1vh;
+        padding-bottom: 8vh;
+        border-left: 1px solid ;
+        
+        border-left: 1px solid #B3B3B3;
+     }
+  .container .right-sidebar p{
+     font-weight: normal;
+     font-size: 1.3rem;
+     
+  }
+ 
+  .main-nav>ul>li{
+     
+     text-align: center;
+    
+     font-weight: bold;
+     padding-right: 4rem;
+ 
+ }
+ .main-nav>ul>li:first{
+     padding-left: 10.5rem;
+ 
+ }
+ 
+ .main-nav>ul>li>a{
+     text-align: center;
+     font-size: 2.2rem;
+     font-weight: bold;
+ }
+ .footer{
+     font-size: 1.9rem;
+     font-weight: bold;
+ }
+ 
+ 
+ }
+
+
+ @media (max-width: 600px) and (orientation: landscape) {
+
+  
+    #about{
+         width: 24.5%;
+         float: right;
+         min-height: 170.7vh;
+        position: absolute;
+        right: -27.5vw;top: 43.8vh;
+        padding-bottom: 8vh;
+        border-left: 1px solid ;
+        
+        border-left: 1px solid #B3B3B3;
+     }
+  .container .right-sidebar p{
+     font-weight: normal;
+     font-size: 1.3rem;
+     
+  }
+ 
+  .main-nav>ul>li{
+     
+     text-align: center;
+    
+     font-weight: bold;
+     padding-right: 4rem;
+ 
+ }
+ .main-nav>ul>li:first{
+     padding-left: 10.5rem;
+ 
+ }
+ 
+ .main-nav>ul>li>a{
+     text-align: center;
+     font-size: 2.2rem;
+     font-weight: bold;
+ }
+ .footer{
+     font-size: 1.9rem;
+     font-weight: bold;
+ }
+ 
+ 
+ }
+
+ @media (max-width: 500px) and (orientation: landscape) {
+
+  
+    #about{
+         width: 30.5%;
+         float: right;
+         min-height: 210.7vh;
+        position: absolute;
+        right: -59.5vw;top: 60.8vh;
+        padding-bottom: 8vh;
+        border-left: 1px solid ;
+        
+        border-left: 1px solid #B3B3B3;
+     }
+  .container .right-sidebar p{
+     font-weight: normal;
+     font-size: 1.3rem;
+     
+  }
+ 
+  .main-nav>ul>li{
+     
+     text-align: center;
+    
+     font-weight: bold;
+     padding-right: 4rem;
+ 
+ }
+ .main-nav>ul>li:first{
+     padding-left: 10.5rem;
+ 
+ }
+ 
+ .main-nav>ul>li>a{
+     text-align: center;
+     font-size: 2.2rem;
+     font-weight: bold;
+ }
+ .footer{
+     font-size: 1.9rem;
+     font-weight: bold;
+ }
+ 
+ 
+ }

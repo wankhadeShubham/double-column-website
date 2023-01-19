@@ -9,20 +9,21 @@ html,body {
 }
 
 body{
-
+    
     background-color: #B3B3B3;
 }
 
 .wrapper{
-
-    margin: 0rem 10rem;
-    /* border: 1PX solid red; */
+    width: 1200px;
+    margin: 0rem auto;
+    border: 1PX solid red;
     
 }
 
 .header{
 
     /* margin: 10px; */
+    
     padding-top: -2vh;
     padding-bottom: 1.5rem;
     font-size: 60px;
@@ -69,9 +70,9 @@ body{
 
 .container{
 
-    /* border: 3px solid red; */
+    /* border: 5px solid rgb(0, 60, 255); */
     background-color: #FFF;
-    
+    margin-bottom:-1vh ;
 
 }
 
@@ -79,7 +80,7 @@ body{
 
 .content{
 
-    
+    /* border: 5px solid rgb(30, 255, 0); */
     font-size: 1.6rem;
     width: 80%;
     float: left;
@@ -89,9 +90,9 @@ body{
 #im{
 
     display: block;
-    min-width: 66.7vw;
+    width: 100%;
     /* max-width: 228px; */
-    
+    object-fit: fill;
     max-height: 55vh;
     padding-top: 0px;
     padding-left: 0px;
@@ -102,9 +103,11 @@ body{
    
     
 }
-.container .content > p{
-    
+.container > .content > p{
+    /* width: %; */
     padding-top: 3vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
     text-indent: 5rem;
 }
 
@@ -112,10 +115,11 @@ body{
 
 .right-sidebar{
 
-    width: 16.7vw;
+    width: 17.5%;
     float: right;
-    min-height: 80.7vh;
-   position: relative;
+    min-height: 75.7vh;
+   position: absolute;
+   right: 5.75vw;top: 24.65vh;
     /* font-size: 95%; */
     /* overflow:scroll; */
     
@@ -130,7 +134,7 @@ body{
     background-color: rgb(43, 177, 255);
     color: #FFF;
     border-top-right-radius: 20px;
-    margin-top: 2px;
+    margin-top: 0px;
     
     /* border-left: 1px solid #B3B3B3; */
 }
@@ -139,7 +143,7 @@ body{
     /* border-left: 1px solid #B3B3B3; */
     text-align: center;
     text-align: justify;
-     padding: 1rem;
+     padding: -1rem;
      padding-bottom: vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 16px;
@@ -148,7 +152,7 @@ body{
 }
 .container p{
     padding: 2vh 1vw ;
-    text-indent:3vw ;
+    text-indent:0vw ;
 }
 
 .container::after{
@@ -179,4 +183,72 @@ body{
 .footer>a:hover{
 
     color: rgb(0, 255, 234);
+}
+
+
+
+/*------------------------------------------Less than 1200px----------------------------------------------------------*/
+
+@media (max-width:1200px) { 
+ 
+    .right-sidebar{
+        width: 18.9%;
+        right: 0vw;top: 21.8vh;
+        min-height: 74.8vh;
+    }
+    
+}
+
+
+/*------------------------------------------Less than 768px----------------------------------------------------------*/
+@media (max-width:991px) { 
+    
+    .wrapper{
+        width: 991px;
+       
+    }
+
+    .right-sidebar{
+        
+        right: 0vw;top: 28.1vh;
+        min-height: 81vh;
+    }
+}
+
+
+
+
+/*------------------------------------------Less than 768px----------------------------------------------------------*/
+@media (max-width:767px) { 
+ 
+    .wrapper{
+        width: 767px;
+        
+          
+    }
+    .right-sidebar{
+        width: 18.9%;
+        right: 0.8vw;top: 36.5vh;
+        min-height: 73.8vh;
+        
+    }
+    .container{
+        min-height: 574px;
+    }
+    .container .content .p{
+        padding-left: 2vw;
+    }
+
+
+}
+
+/*------------------------------------------Less than 400px----------------------------------------------------------*/
+@media (max-width:469px) { 
+ 
+    .wrapper{
+        width: 469px;
+        height: auto;
+        margin: 0rem auto;
+        
+    }
 }

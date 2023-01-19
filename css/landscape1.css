@@ -1,0 +1,156 @@
+@media (orientation:landscape) {
+    
+    html,body {
+        font-size: 55.5%;
+}
+
+
+
+.wrapper{
+
+    margin:  0;
+    /* border: 1PX solid red; */
+    
+}
+
+.header{
+
+    /* margin: 10px; */
+    padding-top: -2vh;
+    padding-bottom: 1.5rem;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    color:peachpuff;
+    text-shadow: 3px 3px brown;
+    background-color: #FFF
+}
+
+.main-nav{
+
+    background-color:#292929;
+}
+.main-nav>ul{
+    /* padding-left: 1vw; */
+    list-style-type: none;
+    text-align: center;
+}
+
+.main-nav>ul>li{
+    padding: 1.5rem 5rem;
+    display: inline-block;
+
+}
+.main-nav>ul>li:first(){
+    padding-left: 2.5rem ;
+   
+
+}
+
+.main-nav>ul>li>a{
+
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight:800;
+}
+
+.main-nav>ul>li:hover{
+
+    background-color:rgb(20, 155, 233);
+}
+
+.container{
+
+    /* border: 3px solid red; */
+    background-color: #FFF;
+    
+
+}
+
+
+
+.content{
+
+    
+    font-size: 1.6rem;
+    width: 100%;
+    
+    /* min-height: 1rem; */
+    text-align: justify;
+}
+#im{
+
+    display: block;
+    width: 100%;
+    /* max-width: 228px; */
+    
+    max-height: 55vh;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+    /* margin-left: auto;
+     margin-right:  auto;  */
+  
+   
+    
+}
+.container p{
+    padding: 4vh 3vw ;
+    text-indent:3vw ;
+    font-weight: normal;
+}
+
+
+.right-sidebar{
+
+    width: 100%;
+    
+    min-height: 0vh;
+    padding-bottom: 5vh;
+   position: relative;
+    /* font-size: 95%; */
+    /* overflow:scroll; */
+    
+   
+     border-left: 1px solid #B3B3B3;
+}
+
+.right-sidebar>h3{
+    font-size: 3rem;
+    text-align: center;
+  
+    border-top-right-radius: 0px;
+    margin-top: 5vh;
+    
+    /* border-left: 1px solid #B3B3B3; */
+}
+
+.right-sidebar>p{
+    /* border-left: 1px solid #B3B3B3; */
+    text-align: center;
+    text-align: justify;
+    padding: 4vh 1rem;
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 1.6rem;
+    text-indent: 12vw;
+padding-bottom: 0.5vh;
+
+    
+}
+
+
+.footer{
+margin: 0;
+
+    padding:  1rem;
+    font-family: cursive;
+    font-size: 2rem;
+
+}
+#foot{
+    margin-top: -200px;
+}
+}
